@@ -1,0 +1,446 @@
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked hosts: 928c29b4c099469caeaef376f680eed1.vfs.cloud9.us-east-1.amazonaws.com
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked hosts: 928c29b4c099469caeaef376f680eed1.vfs.cloud9.us-east-1.amazonaws.com
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked hosts: 928c29b4c099469caeaef376f680eed1.vfs.cloud9.us-east-1.amazonaws.com
+Started GET "/" for 72.80.109.11 at 2023-12-17 18:22:01 +0000
+Cannot render console from 72.80.109.11! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (3.2ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ec2-user/.rvm/gems/ruby-3.2.1/gems/railties-7.1.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ec2-user/.rvm/gems/ruby-3.2.1/gems/railties-7.1.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 2.0ms | Allocations: 374)
+Completed 200 OK in 93ms (Views: 13.9ms | ActiveRecord: 0.0ms | Allocations: 4915)
+
+
+Started GET "/" for 72.80.109.11 at 2023-12-17 18:22:05 +0000
+Cannot render console from 72.80.109.11! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ec2-user/.rvm/gems/ruby-3.2.1/gems/railties-7.1.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ec2-user/.rvm/gems/ruby-3.2.1/gems/railties-7.1.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 13)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 210)
+
+
+Started GET "/" for 72.80.109.11 at 2023-12-17 18:22:13 +0000
+Cannot render console from 72.80.109.11! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ec2-user/.rvm/gems/ruby-3.2.1/gems/railties-7.1.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ec2-user/.rvm/gems/ruby-3.2.1/gems/railties-7.1.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 13)
+Completed 200 OK in 2ms (Views: 2.1ms | ActiveRecord: 0.0ms | Allocations: 209)
+
+
+Started GET "/" for 72.80.109.11 at 2023-12-17 18:29:18 +0000
+Cannot render console from 72.80.109.11! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ec2-user/.rvm/gems/ruby-3.2.1/gems/railties-7.1.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ec2-user/.rvm/gems/ruby-3.2.1/gems/railties-7.1.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.2ms | Allocations: 265)
+Completed 200 OK in 14ms (Views: 13.3ms | ActiveRecord: 0.0ms | Allocations: 903)
+
+
+Started GET "/articles" for 72.80.109.11 at 2023-12-17 18:29:27 +0000
+Cannot render console from 72.80.109.11! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 94)
+  Rendered layout layouts/application.html.erb (Duration: 1081.2ms | Allocations: 95255)
+Completed 200 OK in 1092ms (Views: 1091.7ms | ActiveRecord: 0.0ms | Allocations: 96171)
+
+
+Started GET "/" for 72.80.109.11 at 2023-12-17 18:30:10 +0000
+Cannot render console from 72.80.109.11! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ec2-user/.rvm/gems/ruby-3.2.1/gems/railties-7.1.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ec2-user/.rvm/gems/ruby-3.2.1/gems/railties-7.1.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 13)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 209)
+
+
+Started GET "/" for 72.80.109.11 at 2023-12-17 18:30:54 +0000
+Cannot render console from 72.80.109.11! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 97)
+  Rendered layout layouts/application.html.erb (Duration: 89.6ms | Allocations: 16167)
+Completed 200 OK in 95ms (Views: 94.5ms | ActiveRecord: 0.0ms | Allocations: 17071)
+
+
+Started GET "/" for 72.80.109.11 at 2023-12-17 18:41:48 +0000
+Cannot render console from 72.80.109.11! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ArticlesController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 467)
+
+
+  
+NameError (uninitialized constant ArticlesController::Article):
+  
+app/controllers/articles_controller.rb:3:in `index'
+Started GET "/" for 72.80.109.11 at 2023-12-17 18:50:23 +0000
+Cannot render console from 72.80.109.11! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ArticlesController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 444)
+
+
+  
+NameError (uninitialized constant ArticlesController::Article):
+  
+app/controllers/articles_controller.rb:3:in `index'
+Started GET "/" for 72.80.109.11 at 2023-12-17 18:50:27 +0000
+Cannot render console from 72.80.109.11! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ArticlesController#index as HTML
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms | Allocations: 454)
+
+
+  
+NameError (uninitialized constant ArticlesController::Article):
+  
+app/controllers/articles_controller.rb:3:in `index'
+Started GET "/" for 72.80.109.11 at 2023-12-17 18:53:58 +0000
+Cannot render console from 72.80.109.11! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ArticlesController#index as HTML
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms | Allocations: 444)
+
+
+  
+NameError (uninitialized constant ArticlesController::Article):
+  
+app/controllers/articles_controller.rb:3:in `index'
+Started GET "/" for 72.80.109.11 at 2023-12-17 19:06:35 +0000
+Cannot render console from 72.80.109.11! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:4
+  Rendered articles/index.html.erb within layouts/application (Duration: 10.8ms | Allocations: 2545)
+  Rendered layout layouts/application.html.erb (Duration: 11.2ms | Allocations: 2637)
+Completed 500 Internal Server Error in 63ms (ActiveRecord: 3.4ms | Allocations: 12679)
+
+
+  
+ActionView::Template::Error (SQLite3::SQLException: no such table: articles):
+    1: <h1>Articles</h1>
+    2: 
+    3: <ul>
+    4:   <% @articles.each do |article| %>
+    5:     <li>
+    6:       <%= link_to article.title, article %>
+    7:     </li>
+  
+Started GET "/" for 72.80.109.11 at 2023-12-17 19:06:39 +0000
+Cannot render console from 72.80.109.11! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:4
+  Rendered articles/index.html.erb within layouts/application (Duration: 3.6ms | Allocations: 1898)
+  Rendered layout layouts/application.html.erb (Duration: 5.0ms | Allocations: 1989)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.6ms | Allocations: 2231)
+
+
+  
+ActionView::Template::Error (SQLite3::SQLException: no such table: articles):
+    1: <h1>Articles</h1>
+    2: 
+    3: <ul>
+    4:   <% @articles.each do |article| %>
+    5:     <li>
+    6:       <%= link_to article.title, article %>
+    7:     </li>
+  
+Started GET "/" for 72.80.109.11 at 2023-12-17 19:10:53 +0000
+Cannot render console from 72.80.109.11! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:4
+  Rendered articles/index.html.erb within layouts/application (Duration: 7.6ms | Allocations: 2365)
+  Rendered layout layouts/application.html.erb (Duration: 10.1ms | Allocations: 2457)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 5.6ms | Allocations: 4048)
+
+
+  
+ActionView::Template::Error (SQLite3::SQLException: no such table: articles):
+    1: <h1>Articles</h1>
+    2: 
+    3: <ul>
+    4:   <% @articles.each do |article| %>
+    5:     <li>
+    6:       <%= link_to article.title, article %>
+    7:     </li>
+  
+Started GET "/" for 72.80.109.11 at 2023-12-17 19:24:29 +0000
+Cannot render console from 72.80.109.11! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ArticlesController#index as HTML
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms | Allocations: 445)
+
+
+  
+NameError (uninitialized constant ArticlesController::Article):
+  
+app/controllers/articles_controller.rb:3:in `index'
+Started GET "/" for 72.80.109.11 at 2023-12-17 19:35:15 +0000
+Cannot render console from 72.80.109.11! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (1.5ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:4
+  Rendered articles/index.html.erb within layouts/application (Duration: 7.7ms | Allocations: 2325)
+  Rendered layout layouts/application.html.erb (Duration: 8.2ms | Allocations: 2417)
+Completed 500 Internal Server Error in 26ms (ActiveRecord: 2.0ms | Allocations: 5472)
+
+
+  
+ActionView::Template::Error (SQLite3::SQLException: no such table: articles):
+    1: <h1>Articles</h1>
+    2: 
+    3: <ul>
+    4:   <% @articles.each do |article| %>
+    5:     <li>
+    6:       <%= link_to article.title, article %>
+    7:     </li>
+  
+Started GET "/" for 72.80.109.11 at 2023-12-17 19:38:21 +0000
+Cannot render console from 72.80.109.11! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:4
+  Rendered articles/index.html.erb within layouts/application (Duration: 7.4ms | Allocations: 2361)
+  Rendered layout layouts/application.html.erb (Duration: 9.9ms | Allocations: 2453)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 5.5ms | Allocations: 4389)
+
+
+  
+ActionView::Template::Error (SQLite3::SQLException: no such table: articles):
+    1: <h1>Articles</h1>
+    2: 
+    3: <ul>
+    4:   <% @articles.each do |article| %>
+    5:     <li>
+    6:       <%= link_to article.title, article %>
+    7:     </li>
+  
+Started GET "/" for 72.80.109.11 at 2023-12-17 19:38:22 +0000
+Cannot render console from 72.80.109.11! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:4
+  Rendered articles/index.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1897)
+  Rendered layout layouts/application.html.erb (Duration: 4.6ms | Allocations: 1988)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.6ms | Allocations: 2226)
+
+
+  
+ActionView::Template::Error (SQLite3::SQLException: no such table: articles):
+    1: <h1>Articles</h1>
+    2: 
+    3: <ul>
+    4:   <% @articles.each do |article| %>
+    5:     <li>
+    6:       <%= link_to article.title, article %>
+    7:     </li>
+  
+Started GET "/" for 72.80.109.11 at 2023-12-17 19:38:23 +0000
+Cannot render console from 72.80.109.11! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:4
+  Rendered articles/index.html.erb within layouts/application (Duration: 3.2ms | Allocations: 1892)
+  Rendered layout layouts/application.html.erb (Duration: 4.0ms | Allocations: 1983)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.6ms | Allocations: 2221)
+
+
+  
+ActionView::Template::Error (SQLite3::SQLException: no such table: articles):
+    1: <h1>Articles</h1>
+    2: 
+    3: <ul>
+    4:   <% @articles.each do |article| %>
+    5:     <li>
+    6:       <%= link_to article.title, article %>
+    7:     </li>
+  
+Started GET "/" for 72.80.109.11 at 2023-12-17 19:50:42 +0000
+Cannot render console from 72.80.109.11! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (1.5ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:4
+  Rendered articles/index.html.erb within layouts/application (Duration: 7.4ms | Allocations: 2348)
+  Rendered layout layouts/application.html.erb (Duration: 9.1ms | Allocations: 2440)
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 2.0ms | Allocations: 4376)
+
+
+  
+ActionView::Template::Error (SQLite3::SQLException: no such table: articles):
+    1: <h1>Articles</h1>
+    2: 
+    3: <ul>
+    4:   <% @articles.each do |article| %>
+    5:     <% unless article.archived? %>
+    6:       <li>
+    7:         <%= link_to article.title, article %>
+  
+Started GET "/" for 72.80.109.11 at 2023-12-17 20:05:28 +0000
+Cannot render console from 72.80.109.11! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (1.4ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:4
+  Rendered articles/index.html.erb within layouts/application (Duration: 7.2ms | Allocations: 2345)
+  Rendered layout layouts/application.html.erb (Duration: 7.6ms | Allocations: 2437)
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 1.9ms | Allocations: 4687)
+
+
+  
+ActionView::Template::Error (SQLite3::SQLException: no such table: articles):
+    1: <h1>Articles</h1>
+    2: 
+    3: <ul>
+    4:   <% @articles.each do |article| %>
+    5:     <% unless article.archived? %>
+    6:       <li>
+    7:         <%= link_to article.title, article %>
+  
+Started GET "/" for 72.80.109.11 at 2023-12-17 20:05:29 +0000
+Cannot render console from 72.80.109.11! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:4
+  Rendered articles/index.html.erb within layouts/application (Duration: 3.5ms | Allocations: 1892)
+  Rendered layout layouts/application.html.erb (Duration: 4.5ms | Allocations: 1983)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.6ms | Allocations: 2221)
+
+
+  
+ActionView::Template::Error (SQLite3::SQLException: no such table: articles):
+    1: <h1>Articles</h1>
+    2: 
+    3: <ul>
+    4:   <% @articles.each do |article| %>
+    5:     <% unless article.archived? %>
+    6:       <li>
+    7:         <%= link_to article.title, article %>
+  
+Started GET "/" for 72.80.109.11 at 2023-12-17 20:06:10 +0000
+Cannot render console from 72.80.109.11! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:4
+  Rendered articles/index.html.erb within layouts/application (Duration: 3.7ms | Allocations: 1892)
+  Rendered layout layouts/application.html.erb (Duration: 4.6ms | Allocations: 1983)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.6ms | Allocations: 2221)
+
+
+  
+ActionView::Template::Error (SQLite3::SQLException: no such table: articles):
+    1: <h1>Articles</h1>
+    2: 
+    3: <ul>
+    4:   <% @articles.each do |article| %>
+    5:     <% unless article.archived? %>
+    6:       <li>
+    7:         <%= link_to article.title, article %>
+  
+Started GET "/" for 72.80.109.11 at 2023-12-17 20:07:01 +0000
+Cannot render console from 72.80.109.11! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:4
+  Rendered articles/index.html.erb within layouts/application (Duration: 29.7ms | Allocations: 1892)
+  Rendered layout layouts/application.html.erb (Duration: 30.0ms | Allocations: 1983)
+Completed 500 Internal Server Error in 31ms (ActiveRecord: 0.7ms | Allocations: 2225)
+
+
+  
+ActionView::Template::Error (SQLite3::SQLException: no such table: articles):
+    1: <h1>Articles</h1>
+    2: 
+    3: <ul>
+    4:   <% @articles.each do |article| %>
+    5:     <% unless article.archived? %>
+    6:       <li>
+    7:         <%= link_to article.title, article %>
+  
+Started GET "/" for 72.80.109.11 at 2023-12-17 20:15:46 +0000
+Cannot render console from 72.80.109.11! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (1.4ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:4
+  Rendered articles/index.html.erb within layouts/application (Duration: 6.5ms | Allocations: 2139)
+  Rendered layout layouts/application.html.erb (Duration: 6.9ms | Allocations: 2230)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 2.0ms | Allocations: 2468)
+
+
+  
+ActionView::Template::Error (SQLite3::SQLException: no such table: articles):
+    1: <h1>Articles</h1>
+    2: 
+    3: <ul>
+    4:   <% @articles.each do |article| %>
+    5:     <% unless article.archived? %>
+    6:       <li>
+    7:         <%= link_to article.title, article %>
+  
+Started GET "/" for 72.80.109.11 at 2023-12-17 20:15:47 +0000
+Cannot render console from 72.80.109.11! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:4
+  Rendered articles/index.html.erb within layouts/application (Duration: 3.6ms | Allocations: 1892)
+  Rendered layout layouts/application.html.erb (Duration: 4.5ms | Allocations: 1983)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.6ms | Allocations: 2221)
+
+
+  
+ActionView::Template::Error (SQLite3::SQLException: no such table: articles):
+    1: <h1>Articles</h1>
+    2: 
+    3: <ul>
+    4:   <% @articles.each do |article| %>
+    5:     <% unless article.archived? %>
+    6:       <li>
+    7:         <%= link_to article.title, article %>
+  
+Started GET "/" for 72.80.109.11 at 2023-12-17 20:30:36 +0000
+Cannot render console from 72.80.109.11! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (1.6ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:4
+  Rendered articles/index.html.erb within layouts/application (Duration: 6.5ms | Allocations: 2139)
+  Rendered layout layouts/application.html.erb (Duration: 7.7ms | Allocations: 2230)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 2.4ms | Allocations: 2468)
+
+
+  
+ActionView::Template::Error (SQLite3::SQLException: no such table: articles):
+    1: <h1>Articles</h1>
+    2: 
+    3: <ul>
+    4:   <% @articles.each do |article| %>
+    5:     <% unless article.archived? %>
+    6:       <li>
+    7:         <%= link_to article.title, article %>
+  
